@@ -1,0 +1,204 @@
+/* App.css */
+
+/* Header */
+.header {
+  background-color: #1a1a1a; 
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center; /* Center header content */
+  align-items: center;
+  flex-direction: column; /* Align items in a column */
+}
+
+.header-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  
+}
+.header-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header a {
+  color: #ffffff; /* White color for links */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.header-nav li {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.header-nav li {
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+.header button {
+  background-color: #febd69; /* Amazon orange */
+  color: #000000;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: auto; /* Send button to the right */
+}
+
+
+.header button:hover {
+  background-color: #f6b05b; /* Lighter orange on hover */
+}
+
+/* Content */
+.content {
+  display: flex;
+  flex-direction: column; /* Align children in a column */
+  align-items: center; /* Center content horizontally */
+}
+
+/* Navbar */
+.navbar {
+  background-color: #f0f2f3; /* Amazon light gray */
+  padding: 10px 20px;
+  width: 100%; /* Take full width */
+}
+
+.searchbar input {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.categories select {
+  padding: 8px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+
+/* Products */
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  justify-content: center; /* Center product cards horizontally */
+}
+
+.product-card {
+  width: 250px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ffffff;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.product-info {
+  padding: 10px 0;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.quantity-controls button {
+  padding: 5px 10px;
+  background-color: #febd69; /* Amazon orange */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  
+}
+
+.quantity-controls button:hover {
+  background-color: #f6b05b; /* Lighter orange on hover */
+}
+
+.quantity-controls input {
+  width: 40px;
+  text-align: center;
+}
+
+/* Cart Panel */
+.cart-panel {
+  position: absolute;
+  top: 60px; /* Adjust this value as needed */
+  right: 20px; /* Adjust this value as needed */
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+}
+
+.cart-panel h2 {
+  margin-top: 0;
+}
+
+.cart-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.cart-item button {
+  padding: 5px 10px;
+  background-color: #febd69; /* Amazon orange */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cart-item button:hover {
+  background-color: #f6b05b; /* Lighter orange on hover */
+}
+
+.buy-now-button {
+  background-color: #febd69; /* Amazon orange */
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.buy-now-button:hover {
+  background-color: #f6b05b; /* Lighter orange on hover */
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1a1a1a;
+  color:white; /* Set footer text color to black */
+}
